@@ -1,21 +1,8 @@
-import firebase from 'firebase/compat/app';
 import { useRef, useState } from 'react';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
+import { firebaseAuth, firebaseTimestamp, firestore } from '../firebase';
 import ChatMessage from './ChatMessage';
 import styles from './ChatRoom.module.css';
-
-firebase.initializeApp({
-  apiKey: "AIzaSyBi4o5_SIj2hsJc_XDJ_6NqhsAttCoxU9Q",
-  authDomain: "chat-app-1bd48.firebaseapp.com",
-  projectId: "chat-app-1bd48",
-  storageBucket: "chat-app-1bd48.appspot.com",
-  messagingSenderId: "391589411439",
-  appId: "1:391589411439:web:89dd2a2d3bb1d719efeb9a"
-});
-
-const auth = firebase.auth();
-const firestore = firebase.firestore();
-
 
 function ChatRoom() {
   const dummy = useRef();
@@ -30,11 +17,11 @@ function ChatRoom() {
   const sendMessage = async (e) => {
     e.preventDefault();
 
-    const { uid, photoURL } = auth.currentUser;
+    const { uid, photoURL } = firebaseAuth.currentUser;
 
     await messagesRef.add({
       text: formValue,
-      createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+      createdAt: firebaseTimestamp,
       uid,
       photoURL
     });
