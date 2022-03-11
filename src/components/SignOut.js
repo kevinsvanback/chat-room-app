@@ -1,4 +1,3 @@
-// import React from 'react';
 // import React from 'react'
 // import 'firebase/analytics';
 // import firebase from 'firebase/compat/app';
@@ -21,15 +20,10 @@
 // const auth = firebase.auth();
 // const firestore = firebase.firestore();
 
-// const ChatRoom = () => {
-//   const messageRef = firestore.collection('messages');
-//   const query = messageRef.orderBy('createdAt').limit(25);
-
-//   const [messages] = useCollectionData(query, {idField: 'id'});
-
+// const SignOut = () => {
 //   return (
-//     <div>ChatRoom</div>
-//   );
-// };
+//     auth.currentUser && (<button onClick={() => auth.signOut()}>Sign Out</button>)
+//   )
+// }
 
-// export default ChatRoom;
+// export default SignOut
