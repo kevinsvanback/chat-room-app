@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 import { firebaseAuth, firebaseTimestamp, firestore } from '../firebase';
+import sendMessageIcon from '../images/sendMessageIcon.png';
 import ChatMessage from './ChatMessage';
 import styles from './ChatRoom.module.css';
 
@@ -9,7 +10,7 @@ function ChatRoom() {
   const messagesRef = firestore.collection('messages');
   const query = messagesRef.orderBy('createdAt');
 
-  const [messages] = useCollectionData(query, { idField: 'id' });
+  const [messages] = useCollectionData(query);
 
   const [formValue, setFormValue] = useState('');
 
@@ -32,19 +33,15 @@ function ChatRoom() {
 
   return (<>
     <main className={styles.chatRoomMain}>
-
-      {messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
+      {messages && messages.map(msg => <ChatMessage key={Math.random()} message={msg} />)}
 
       <span ref={dummy}></span>
-
     </main>
 
     <form className={styles.chatRoomForm} onSubmit={sendMessage}>
+      <input className={styles.chatRoomInput} value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="Write your message..." />
 
-      <input className={styles.chatRoomInput} value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice" />
-
-      <button className={styles.chatRoomButton} type="submit" disabled={!formValue}>🕊️</button>
-
+      <button className={styles.chatRoomButton} type="submit" disabled={!formValue}><img className={styles.sendMessageIcon} src={sendMessageIcon} alt=':(' /></button>
     </form>
   </>);
 }

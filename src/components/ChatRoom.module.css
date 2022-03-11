@@ -62,3 +62,7 @@
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+.sendMessageIcon {
+  width: 30px;
+}
