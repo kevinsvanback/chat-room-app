@@ -1,7 +1,7 @@
 import { firebaseAuth } from '../firebase';
 import styles from './ChatMessage.module.css';
 
-function ChatMessage(props) {
+const ChatMessage = (props) => {
   const { text, uid, photoURL } = props.message;
 
   return (
@@ -21,6 +21,6 @@ function ChatMessage(props) {
       }
     </>
   );
-}
+};
 
 export default ChatMessage;

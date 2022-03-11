@@ -1,7 +1,7 @@
 import { firebaseAuth, firebaseProvider } from '../firebase';
 import styles from './SignIn.module.css';
 
-function SignIn() {
+const SignIn = () => {
   const signInWithGoogle = () => {
     firebaseAuth.signInWithPopup(firebaseProvider);
   };
@@ -12,6 +12,6 @@ function SignIn() {
       <p>Join the chat room by signing in with your Google account!</p>
     </>
   );
-}
+};
 
 export default SignIn;

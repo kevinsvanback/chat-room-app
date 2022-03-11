@@ -6,7 +6,7 @@ import SignIn from './components/SignIn';
 import SignOut from './components/SignOut';
 import { firebaseAuth } from './firebase';
 
-function App() {
+const App = () => {
   const [user] = useAuthState(firebaseAuth);
 
   return (
@@ -19,9 +19,8 @@ function App() {
       <section>
         {user ? <ChatRoom /> : <SignIn />}
       </section>
-
     </div>
   );
-}
+};
 
 export default App;
