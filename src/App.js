@@ -1,4 +1,3 @@
-import React from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import './App.css';
 import ChatRoom from './components/ChatRoom';
