@@ -5,11 +5,11 @@
 }
 
 .App header {
-  background-color: #000;
+  background: -webkit-gradient(linear, left bottom, left top, from(#006aff), color-stop(#007fff), color-stop(#0092ff), color-stop(#00a3ff), to(#00b2ff));
+  background: linear-gradient(to top, #006aff, #007fff, #0092ff, #00a3ff, #00b2ff);
   height: 10vh;
   min-height: 50px;
-  color: #50e100;
-  text-shadow: 0px 0px 8px #50e100;
+  color: #fff;
   position: fixed;
   width: 100%;
   max-width: 728px;
@@ -20,9 +20,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   z-index: 99;
   padding: 10px;
   -webkit-box-sizing: border-box;

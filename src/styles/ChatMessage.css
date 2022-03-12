@@ -16,19 +16,24 @@
 
 .sent p {
   color: white;
-  background: #0b93f6;
+  background: -webkit-gradient(linear, left bottom, left top, from(#006aff), color-stop(#007fff), color-stop(#0092ff), color-stop(#00a3ff), to(#00b2ff));
+  background: linear-gradient(to top, #006aff, #007fff, #0092ff, #00a3ff, #00b2ff);
   -ms-flex-item-align: end;
       align-self: flex-end;
+  padding: 10px;
+  border-radius: 100px;
 }
 
 .received p {
-  background: #e5e5ea;
-  color: black;
+  background: #585858;
+  color: #fff;
+  padding: 15px;
+  border-radius: 100px;
 }
 
 .profileImg {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   margin: 2px 5px;
 }

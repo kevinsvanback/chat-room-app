@@ -14,10 +14,12 @@ code {
 }
 
 body {
-  background-color: #686969;
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 p {
-  color: #50e100;
+  color: #fff;
   text-align: center;
 }
