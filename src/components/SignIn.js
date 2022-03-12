@@ -1,5 +1,6 @@
 import { firebaseAuth, firebaseProvider } from '../firebase';
-import styles from './SignIn.module.css';
+// import styles from './SignIn.module.css';
+import '../styles/SignIn.css';
 
 const SignIn = () => {
   const signInWithGoogle = () => {
@@ -8,7 +9,7 @@ const SignIn = () => {
 
   return (
     <>
-      <button className={styles.signIn} onClick={signInWithGoogle}>Sign in with Google</button>
+      <button className='signIn' onClick={signInWithGoogle}>Sign in with Google</button>
       <p>Join the chat room by signing in with your Google account!</p>
     </>
   );

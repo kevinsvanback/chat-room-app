@@ -1,10 +1,10 @@
 import { firebaseAuth } from '../firebase';
-import styles from './SignOut.module.css';
+import '../styles/SignOut.css';
 
 const SignOut = () => {
   return (
     firebaseAuth.currentUser && (
-      <button className={styles.signOut} onClick={() => firebaseAuth.signOut()}>Sign Out</button>
+      <button className='signOut' onClick={() => firebaseAuth.signOut()}>Sign Out</button>
     )
   );
 };

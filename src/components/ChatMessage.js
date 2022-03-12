@@ -1,5 +1,6 @@
 import { firebaseAuth } from '../firebase';
-import styles from './ChatMessage.module.css';
+// import styles from './ChatMessage.module.css';
+import '../styles/ChatMessage.css';
 
 const ChatMessage = (props) => {
   const { text, uid, photoURL } = props.message;
@@ -9,13 +10,13 @@ const ChatMessage = (props) => {
       {
         uid === firebaseAuth.currentUser.uid
           ?
-          <div className={`${styles.message} ${styles.sent}`}>
-            <img className={styles.profileImg} src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'} alt=':(' />
+          <div className='message sent'>
+            <img className='profileImg' src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'} alt=':(' />
             <p>{text}</p>
           </div>
           :
-          <div className={`${styles.message} ${styles.received}`}>
-            <img className={styles.profileImg} src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'} alt=':(' />
+          <div className='message received'>
+            <img className='profileImg' src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'} alt=':(' />
             <p>{text}</p>
           </div>
       }
