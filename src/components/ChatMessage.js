@@ -10,12 +10,12 @@ const ChatMessage = (props) => {
         uid === firebaseAuth.currentUser.uid
           ?
           <div className={`${styles.message} ${styles.sent}`}>
-            <img className={styles.profileImg} src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'} />
+            <img className={styles.profileImg} src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'} alt=':(' />
             <p>{text}</p>
           </div>
           :
           <div className={`${styles.message} ${styles.received}`}>
-            <img className={styles.profileImg} src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'} />
+            <img className={styles.profileImg} src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'} alt=':(' />
             <p>{text}</p>
           </div>
       }
