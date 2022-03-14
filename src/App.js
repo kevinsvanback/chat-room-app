@@ -10,7 +10,6 @@ const App = () => {
 
   return (
     <div className="App">
-
       <header>
         <h1>React Chat Room</h1>
         <SignOut />

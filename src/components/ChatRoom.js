@@ -37,12 +37,12 @@ const ChatRoom = () => {
 
         <span ref={dummy}></span>
       </main>
-
       <form className='chatRoomForm' onSubmit={sendMessage}>
-        <input className='chatRoomInput' value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="Write your message..." />
+        <input className='chatRoomInput' value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="Aa" />
 
         <button className='chatRoomButton' type="submit" disabled={!formValue}><img className='sendMessageIcon' src={sendMessageIcon} alt=':(' /></button>
       </form>
+
     </>)
     ;
 };

@@ -1,13 +1,14 @@
 @import './helpers/helpers.scss';
 
 .chatRoomMain {
-  padding: 10px;
-  height: 80vh;
-  margin: 10vh 0 10vh;
+  padding: 10px 10px 0 10px;
+  // height: 80vh;
+  // margin: 10vh 0 10vh;
   overflow-y: scroll;
   display: flex;
   flex-direction: column;
-  background: #000;
+  gap: 10px;
+  background: #333;
 }
 
 .chatRoomMain::-webkit-scrollbar {
@@ -23,18 +24,21 @@
 }
 
 .chatRoomForm {
-  height: 10vh;
-  position: fixed;
-  bottom: 0;
-  background-color: #000;
-  width: 100%;
-  max-width: 728px;
+  // height: 10vh;
+  // position: fixed;
+  // bottom: 0;
+  background-color: #333;
   display: flex;
-  font-size: 1.5rem;
+  gap: 10px;
+  padding: 10px;
+  // justify-content: space-between;
+  // width: 100%;
+  // max-width: 728px;
+  // font-size: 1.5rem;
 }
 
 .chatRoomInput {
-  line-height: 1.5;
+  // line-height: 1.5;
   width: 100%;
   font-size: 1.5rem;
   background: $secondaryBackgroundColor;
@@ -46,19 +50,19 @@
 }
 
 .chatRoomInput::placeholder {
-  color: #fff;
+  // color: #fff;
 }
 
 .chatRoomButton {
   background: $primaryBackgroundColor;
   border: none;
   color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  padding: 15px 30px;
+  // text-align: center;
+  // text-decoration: none;
+  // display: inline-block;
   cursor: pointer;
-  font-size: 1.25rem;
+  // font-size: 1.25rem;
   border-radius: 100px;
 }
 

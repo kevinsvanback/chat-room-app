@@ -1,32 +1,28 @@
 .App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
-  max-width: 728px;
+  max-width: 720px;
+  height: 100vh;
   margin: 0 auto;
 }
 
 .App header {
-  background: -webkit-gradient(linear, left bottom, left top, from(#006aff), color-stop(#007fff), color-stop(#0092ff), color-stop(#00a3ff), to(#00b2ff));
-  background: linear-gradient(to top, #006aff, #007fff, #0092ff, #00a3ff, #00b2ff);
-  height: 10vh;
-  min-height: 50px;
-  color: #fff;
-  position: fixed;
-  width: 100%;
-  max-width: 728px;
-  top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  z-index: 99;
+  background: -webkit-gradient(linear, left bottom, left top, from(#006aff), color-stop(#007fff), color-stop(#0092ff), color-stop(#00a3ff), to(#00b2ff));
+  background: linear-gradient(to top, #006aff, #007fff, #0092ff, #00a3ff, #00b2ff);
+  color: #fff;
   padding: 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .App section {
@@ -40,7 +36,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-height: 100vh;
+  height: 80%;
   background-color: #333;
 }
 /*# sourceMappingURL=App.css.map */

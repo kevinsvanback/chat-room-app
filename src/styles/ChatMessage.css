@@ -1,10 +1,7 @@
-.message {
+.messageContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .sent {
@@ -14,27 +11,34 @@
           flex-direction: row-reverse;
 }
 
-.sent p {
-  color: white;
+.messageText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: -webkit-gradient(linear, left bottom, left top, from(#006aff), color-stop(#007fff), color-stop(#0092ff), color-stop(#00a3ff), to(#00b2ff));
   background: linear-gradient(to top, #006aff, #007fff, #0092ff, #00a3ff, #00b2ff);
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  padding: 10px;
-  border-radius: 100px;
+  border-radius: 15px;
+  color: white;
+  max-width: 50%;
 }
 
-.received p {
+.received .messageText {
   background: #585858;
-  color: #fff;
-  padding: 15px;
-  border-radius: 100px;
+}
+
+.messageText p {
+  padding: 10px;
 }
 
 .profileImg {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  margin: 2px 5px;
 }
 /*# sourceMappingURL=ChatMessage.css.map */

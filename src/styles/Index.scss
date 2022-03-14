@@ -1,6 +1,12 @@
-body {
+* {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -13,13 +19,7 @@ code {
     monospace;
 }
 
-body {
-  background-image: url('../images/background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-p {
-  color: #fff;
-  text-align: center;
-}
+// p {
+//   color: #fff;
+//   text-align: center;
+// }
