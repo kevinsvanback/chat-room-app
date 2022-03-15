@@ -1,5 +1,4 @@
 import { firebaseAuth } from '../firebase';
-// import styles from './ChatMessage.module.css';
 import '../styles/ChatMessage.css';
 
 const ChatMessage = (props) => {

@@ -1,5 +1,4 @@
 import { firebaseAuth, firebaseProvider } from '../firebase';
-// import styles from './SignIn.module.css';
 import '../styles/SignIn.css';
 
 const SignIn = () => {

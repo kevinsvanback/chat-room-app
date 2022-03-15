@@ -2,7 +2,6 @@ import { useRef, useState } from 'react';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 import { firebaseAuth, firebaseTimestamp, firestore } from '../firebase';
 import sendMessageIcon from '../images/sendMessageIcon.png';
-// import styles from './ChatRoom.module.css';
 import '../styles/ChatRoom.css';
 import ChatMessage from './ChatMessage';
 

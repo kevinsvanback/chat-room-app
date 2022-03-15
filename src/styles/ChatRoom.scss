@@ -2,8 +2,6 @@
 
 .chatRoomMain {
   padding: 10px 10px 0 10px;
-  // height: 80vh;
-  // margin: 10vh 0 10vh;
   overflow-y: scroll;
   display: flex;
   flex-direction: column;
@@ -25,21 +23,13 @@
 }
 
 .chatRoomForm {
-  // height: 10vh;
-  // position: fixed;
-  // bottom: 0;
   background-color: #333;
   display: flex;
   gap: 10px;
   padding: 10px;
-  // justify-content: space-between;
-  // width: 100%;
-  // max-width: 728px;
-  // font-size: 1.5rem;
 }
 
 .chatRoomInput {
-  // line-height: 1.5;
   width: 100%;
   font-size: 1.5rem;
   background: $secondaryBackgroundColor;
@@ -50,20 +40,12 @@
   border-radius: 100px;
 }
 
-.chatRoomInput::placeholder {
-  // color: #fff;
-}
-
 .chatRoomButton {
   background: $primaryBackgroundColor;
   border: none;
   color: white;
   padding: 15px 30px;
-  // text-align: center;
-  // text-decoration: none;
-  // display: inline-block;
   cursor: pointer;
-  // font-size: 1.25rem;
   border-radius: 100px;
 }
 
