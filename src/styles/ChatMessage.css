@@ -1,15 +1,10 @@
 .messageContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 10px;
 }
 
 .sent {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .sent p {
@@ -17,16 +12,9 @@
 }
 
 .messageText {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: -webkit-gradient(linear, left bottom, left top, from(#006aff), color-stop(#007fff), color-stop(#0092ff), color-stop(#00a3ff), to(#00b2ff));
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(to top, #006aff, #007fff, #0092ff, #00a3ff, #00b2ff);
   border-radius: 15px;
   color: #000;
@@ -45,5 +33,4 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-}
-/*# sourceMappingURL=ChatMessage.css.map */
+}/*# sourceMappingURL=ChatMessage.css.map */

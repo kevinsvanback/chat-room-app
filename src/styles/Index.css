@@ -1,15 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap");
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-/*# sourceMappingURL=Index.css.map */
+}/*# sourceMappingURL=Index.css.map */

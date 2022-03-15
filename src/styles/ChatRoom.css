@@ -1,13 +1,8 @@
 .chatRoomMain {
   padding: 10px 10px 0 10px;
   overflow-y: scroll;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 10px;
   background: #333;
   margin-top: auto;
@@ -27,8 +22,6 @@
 
 .chatRoomForm {
   background-color: #333;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 10px;
   padding: 10px;
@@ -46,7 +39,6 @@
 }
 
 .chatRoomButton {
-  background: -webkit-gradient(linear, left bottom, left top, from(#006aff), color-stop(#007fff), color-stop(#0092ff), color-stop(#00a3ff), to(#00b2ff));
   background: linear-gradient(to top, #006aff, #007fff, #0092ff, #00a3ff, #00b2ff);
   border: none;
   color: white;
@@ -62,5 +54,4 @@
 
 .sendMessageIcon {
   width: 30px;
-}
-/*# sourceMappingURL=ChatRoom.css.map */
+}/*# sourceMappingURL=ChatRoom.css.map */

@@ -1,57 +1,30 @@
 .App {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  max-width: 720px;
-  height: 100vh;
-  margin: 0 auto;
+  height: 80vh;
+  margin: 0 20%;
 }
-
 .App header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: -webkit-gradient(linear, left bottom, left top, from(#006aff), color-stop(#007fff), color-stop(#0092ff), color-stop(#00a3ff), to(#00b2ff));
+  justify-content: space-between;
+  align-items: center;
   background: linear-gradient(to top, #006aff, #007fff, #0092ff, #00a3ff, #00b2ff);
   color: #fff;
   padding: 15px;
   border-radius: 8px 8px 0 0;
 }
-
 .App header h1 {
   margin: 10px;
 }
-
 .App header img {
   height: 30px;
 }
-
 .App section {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 70%;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
   background-color: #333;
-}
-/*# sourceMappingURL=App.css.map */
+}/*# sourceMappingURL=App.css.map */

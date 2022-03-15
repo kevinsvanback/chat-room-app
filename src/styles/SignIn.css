@@ -1,20 +1,15 @@
 .signInContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
+  margin: 0 20px;
 }
-
 .signInContainer button {
   color: #fff;
   border-radius: 100px;
   max-width: 400px;
-  margin: 0 auto;
-  background: -webkit-gradient(linear, left bottom, left top, from(#006aff), color-stop(#007fff), color-stop(#0092ff), color-stop(#00a3ff), to(#00b2ff));
   background: linear-gradient(to top, #006aff, #007fff, #0092ff, #00a3ff, #00b2ff);
   border: none;
   padding: 15px 30px;
@@ -24,8 +19,6 @@
   cursor: pointer;
   font-size: 1.25rem;
 }
-
 .signInContainer p {
   color: #fff;
-}
-/*# sourceMappingURL=SignIn.css.map */
+}/*# sourceMappingURL=SignIn.css.map */

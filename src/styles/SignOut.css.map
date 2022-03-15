@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAEA,AAAA,QAAQ,CAAC;EACP,KAAK,EAAE,IAAI;EACX,aAAa,EAAE,KAAK;EACpB,SAAS,EAAE,KAAK;EAChB,gBAAgB,EAAE,IAAI;EACtB,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,SAAS;EAClB,UAAU,EAAE,MAAM;EAClB,eAAe,EAAE,IAAI;EACrB,MAAM,EAAE,OAAO;EACf,SAAS,EAAE,OAAO;CACnB",
-    "sources": [
-        "SignOut.scss",
-        "helpers/helpers.scss"
-    ],
-    "names": [],
-    "file": "SignOut.css"
-}
+{"version":3,"sources":["SignOut.scss","SignOut.css"],"names":[],"mappings":"AAEA;EACE,WAAA;EACA,oBAAA;EACA,gBAAA;EACA,sBAAA;EACA,YAAA;EACA,kBAAA;EACA,kBAAA;EACA,qBAAA;EACA,eAAA;EACA,kBAAA;ACDF","file":"SignOut.css"}
