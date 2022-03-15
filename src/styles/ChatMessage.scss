@@ -11,6 +11,10 @@
   flex-direction: row-reverse;
 }
 
+.sent p {
+  color: #fff;
+}
+
 .messageText {
   display: flex;
   justify-content: center;
@@ -18,17 +22,11 @@
   background: $primaryBackgroundColor;
   // border-radius: 100px;
   border-radius: 15px;
-  color: white;
+  color: #000;
   max-width: 50%;
   // overflow: hidden;
 }
 
-.sent p {
-  // align-self: center;
-  // align-self: flex-end;
-  // padding: 10px;
-  // margin: 0;
-}
 .received .messageText {
   background: $secondaryBackgroundColor;
   // color: #fff;

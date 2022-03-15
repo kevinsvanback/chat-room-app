@@ -12,6 +12,10 @@
           flex-direction: row-reverse;
 }
 
+.sent p {
+  color: #fff;
+}
+
 .messageText {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,12 +29,12 @@
   background: -webkit-gradient(linear, left bottom, left top, from(#006aff), color-stop(#007fff), color-stop(#0092ff), color-stop(#00a3ff), to(#00b2ff));
   background: linear-gradient(to top, #006aff, #007fff, #0092ff, #00a3ff, #00b2ff);
   border-radius: 15px;
-  color: white;
+  color: #000;
   max-width: 50%;
 }
 
 .received .messageText {
-  background: #585858;
+  background: #e5e7ea;
 }
 
 .messageText p {

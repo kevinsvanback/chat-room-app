@@ -12,9 +12,11 @@
   header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: $primaryBackgroundColor;
     color: #fff;
-    padding: 10px;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
     // z-index: 99;
     // padding: 10px;
     // height: 10vh;
@@ -25,6 +27,10 @@
     // top: 0;
     // align-items: center;
     // box-sizing: border-box;
+
+    h1 {
+      margin: 10px;
+    }
   }
 
   section {

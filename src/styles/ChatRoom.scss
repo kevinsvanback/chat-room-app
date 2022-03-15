@@ -9,6 +9,7 @@
   flex-direction: column;
   gap: 10px;
   background: #333;
+  margin-top: auto;
 }
 
 .chatRoomMain::-webkit-scrollbar {
@@ -42,7 +43,7 @@
   width: 100%;
   font-size: 1.5rem;
   background: $secondaryBackgroundColor;
-  color: #fff;
+  color: #000;
   outline: none;
   border: none;
   padding: 0 10px;

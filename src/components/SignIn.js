@@ -8,10 +8,10 @@ const SignIn = () => {
   };
 
   return (
-    <>
-      <button className='signIn' onClick={signInWithGoogle}>Sign in with Google</button>
+    <div className='signInContainer'>
+      <button onClick={signInWithGoogle}>Sign in with Google</button>
       <p>Join the chat room by signing in with your Google account!</p>
-    </>
+    </div>
   );
 };
 
