@@ -1,3 +1,5 @@
+import { faCommentDots } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import ChatRoom from './components/ChatRoom';
 import SignIn from './components/SignIn';
@@ -11,7 +13,7 @@ const App = () => {
   return (
     <div className="App">
       <header>
-        <h1>React Chat Room</h1>
+        <h1>React Chat Room <FontAwesomeIcon icon={faCommentDots} /></h1>
         <SignOut />
       </header>
 

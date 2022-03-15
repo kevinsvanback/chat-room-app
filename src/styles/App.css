@@ -36,6 +36,10 @@
   margin: 10px;
 }
 
+.App header img {
+  height: 30px;
+}
+
 .App section {
   display: -webkit-box;
   display: -ms-flexbox;
