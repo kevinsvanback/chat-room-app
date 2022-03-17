@@ -6,13 +6,11 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin: 0 20px;
 
   button {
   color: #fff;
   border-radius: 100px;
   max-width: 400px;
-  // margin: 0 auto;
   background: $primaryBackgroundColor;
   border: none;
   padding: 15px 30px;
@@ -25,6 +23,5 @@
 
   p {
     color: #fff;
-    // margin: 0 20px;
   }
 }

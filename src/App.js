@@ -11,15 +11,17 @@ const App = () => {
   const [user] = useAuthState(firebaseAuth);
 
   return (
-    <div className="App">
-      <header>
-        <h1>React Chat Room <FontAwesomeIcon icon={faCommentDots} /></h1>
-        <SignOut />
-      </header>
+    <div className='wrapper'>
+      <div className="App">
+        <header>
+          <h1>React Chat Room <FontAwesomeIcon icon={faCommentDots} /></h1>
+          <SignOut />
+        </header>
 
-      <section>
-        {user ? <ChatRoom /> : <SignIn />}
-      </section>
+        <section>
+          {user ? <ChatRoom /> : <SignIn />}
+        </section>
+      </div>
     </div>
   );
 };

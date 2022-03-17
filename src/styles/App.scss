@@ -1,14 +1,19 @@
 @import './helpers/helpers.scss';
 
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .App {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  // max-width: 720px;
+  flex: 1;
+  max-width: 800px;
   height: 80vh;
-  // align-items: center;
-  margin: 0 20%;
+  margin: 0 20px;
 
   header {
     display: flex;
@@ -16,11 +21,12 @@
     align-items: center;
     background: $primaryBackgroundColor;
     color: #fff;
-    padding: 15px;
+    padding: 20px;
     border-radius: 8px 8px 0 0;
 
     h1 {
-      margin: 10px;
+      // margin: 10px;
+      font-size: clamp(16px, 5vw, 32px);
     }
 
     img {
@@ -36,3 +42,7 @@
     background-color: #333;
   }
 }
+
+// @media (max-width: 640px) {
+//   
+// }

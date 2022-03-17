@@ -1,10 +1,17 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .App {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  flex: 1;
+  max-width: 800px;
   height: 80vh;
-  margin: 0 20%;
+  margin: 0 20px;
 }
 .App header {
   display: flex;
@@ -12,11 +19,11 @@
   align-items: center;
   background: linear-gradient(to top, #006aff, #007fff, #0092ff, #00a3ff, #00b2ff);
   color: #fff;
-  padding: 15px;
+  padding: 20px;
   border-radius: 8px 8px 0 0;
 }
 .App header h1 {
-  margin: 10px;
+  font-size: clamp(16px, 5vw, 32px);
 }
 .App header img {
   height: 30px;
