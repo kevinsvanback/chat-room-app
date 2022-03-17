@@ -7,15 +7,5 @@
 
 body {
   min-height: 100vh;
-  height: -webkit-fill-available;
-  height: -moz-available;
-  height: stretch;
-  min-height: -webkit-fill-available;
   font-family: "Helvetica Neue", sans-serif;
-}
-
-html {
-  height: -moz-available;
-  height: stretch;
-  height: -webkit-fill-available;
 }/*# sourceMappingURL=Index.css.map */

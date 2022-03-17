@@ -7,21 +7,6 @@
 }
 
 body {
-  // background-image: url('../images/background.jpg');
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // min-height: 100vh;
   min-height: 100vh;
-  // min-height: fill-available;
-  height: stretch;
-  min-height: -webkit-fill-available;
   font-family: 'Helvetica Neue', sans-serif;
-  // -webkit-font-smoothing: antialiased;
-  // -moz-osx-font-smoothing: grayscale;
-}
-
-html {
-  // min-height: fill-available;
-  height: stretch;
-  height: -webkit-fill-available;
 }
