@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 10px;
 
   button {
@@ -13,15 +14,16 @@
   max-width: 400px;
   background: $primaryBackgroundColor;
   border: none;
-  padding: 15px 30px;
+  padding: clamp(8px, 2.5vw, 15px) clamp(10px, 3.5vw, 30px);
   text-align: center;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
-  font-size: 1.25rem;
+  font-size: clamp(10px, 2.5vw, 16px);
   }
 
   p {
     color: #fff;
+    font-size: clamp(10px, 2.5vw, 16px);
   }
 }

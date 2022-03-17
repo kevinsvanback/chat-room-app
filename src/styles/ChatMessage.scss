@@ -19,7 +19,7 @@
   align-items: center;
   background: $primaryBackgroundColor;
   border-radius: 15px;
-  color: #000;
+  color: #333;
   max-width: 50%;
 }
 
@@ -29,10 +29,11 @@
 
 .messageText p {
   padding: 10px;
+  font-size: clamp(12px, 3vw, 16px);
 }
 
 .profileImg {
-  width: 50px;
-  height: 50px;
+  width: clamp(30px, 8.5vw, 40px);
+  height: clamp(30px, 8.5vw, 40px);
   border-radius: 50%;
 }

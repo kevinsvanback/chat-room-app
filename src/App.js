@@ -14,7 +14,7 @@ const App = () => {
     <div className='wrapper'>
       <div className="App">
         <header>
-          <h1>React Chat Room <FontAwesomeIcon icon={faCommentDots} /></h1>
+          <h1>React Chat Room <FontAwesomeIcon className='icon' icon={faCommentDots} /></h1>
           <SignOut />
         </header>
 

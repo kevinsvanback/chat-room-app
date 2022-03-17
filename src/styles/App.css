@@ -19,14 +19,12 @@
   align-items: center;
   background: linear-gradient(to top, #006aff, #007fff, #0092ff, #00a3ff, #00b2ff);
   color: #fff;
-  padding: 20px;
+  padding: 20px 10px;
   border-radius: 8px 8px 0 0;
 }
 .App header h1 {
-  font-size: clamp(16px, 5vw, 32px);
-}
-.App header img {
-  height: 30px;
+  font-size: clamp(20px, 5vw, 38px);
+  margin: 0;
 }
 .App section {
   display: flex;

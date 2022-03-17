@@ -21,16 +21,12 @@
     align-items: center;
     background: $primaryBackgroundColor;
     color: #fff;
-    padding: 20px;
+    padding: 20px 10px;
     border-radius: 8px 8px 0 0;
 
     h1 {
-      // margin: 10px;
-      font-size: clamp(16px, 5vw, 32px);
-    }
-
-    img {
-      height: 30px;
+      font-size: clamp(20px, 5vw, 38px);
+      margin:0;
     }
   }
 
@@ -42,7 +38,3 @@
     background-color: #333;
   }
 }
-
-// @media (max-width: 640px) {
-//   
-// }
