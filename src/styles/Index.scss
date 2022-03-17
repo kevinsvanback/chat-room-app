@@ -6,17 +6,20 @@
   padding: 0;
 }
 
-html {
-  height: -webkit-fill-available;
-}
-
 body {
-  background-image: url('../images/background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  // background-image: url('../images/background.jpg');
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // min-height: 100vh;
   min-height: 100vh;
+  min-height: fill-available;
   min-height: -webkit-fill-available;
   font-family: 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  height: fill-available;
+  height: -webkit-fill-available;
 }
